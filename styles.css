@@ -1,0 +1,38 @@
+body {
+  background: green;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 250px;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-suit {  
+  font-size: 100px;
+  align-self: flex-start;
+  padding: 20px;
+
+}
+
+.bottom-suit{
+  font-size: 100px;
+  align-self: flex-end;
+  padding: 20px;
+}
+
+.rank {
+  font-size: 100px;
+  max-width: 50%;
+}
